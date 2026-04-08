@@ -2,8 +2,6 @@
 # Instructions: Complete each task by writing the code below the comment.
 
 # --- Level 1: The Basics (Naming & Assignment) ---
-city="Cape Town"
-print("Question 1:")
 # 1. Create a variable named 'city' and assign it the name of your hometown.
 # 2. Create a variable 'age' and set it to your age.
 # 3. Assign the value 100 to a variable called 'score'.
