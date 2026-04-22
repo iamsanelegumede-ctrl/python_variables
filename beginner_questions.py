@@ -8,49 +8,49 @@
 # - Your name
 # - Your age
 # - Your height
-#name = "Sanele"
-#age = 23
-#height = 1.5
+name = "Sanele"
+age = 23
+height = 1.5
 # Print a sentence:
 # My name is ___, I am ___ years old, and ___ meters tall.
-#print(f"My name is {name}, I am {age} years old, and {height} meters tall.")
+print(f"My name is {name}, I am {age} years old, and {height} meters tall.")
 # Convert:
 # - Age to float
 # - Height to integer
-#age_float = float(age)
-#height_int = int(height)
-#print(f"My age as a float is {age_float} and my height is {height_int} meters.")
+age_float = float(age)
+height_int = int(height)
+print(f"My age as a float is {age_float} and my height is {height_int} meters.")
 # -------------------------------
 # 2. USER INPUT
 # -------------------------------
 # Ask the user for:
 # - Their name
 # - Their age
-#name = input("What is your name?")
-#age = int(input("What is your age?"))
+name = input("What is your name?")
+age = int(input("What is your age?"))
 # Print:
 # Hello [name], you will be [age + 5] in 5 years.
-#print(f"Hello {name}, you will be {age + 5} in 5 years.")
+print(f"Hello {name}, you will be {age + 5} in 5 years.")
 
 # -------------------------------
 # 3. CONDITIONAL STATEMENTS
 # -------------------------------
 # Ask the user for a number
-#num = int(input("Please enter your number"))
+num = int(input("Please enter your number"))
 # Check:
 # - If positive → print "Positive number"
 # - If negative → print "Negative number"
 # - If zero → print "Zero"
-#if num > 0:
- #   print("Positive number")
-#elif num < 0:
- #   print("Negative number")
-#else: print(0)        
+if num > 0:
+    print("Positive number")
+elif num < 0:
+    print("Negative number")
+else: print(0)        
 # Bonus:
 # Check if the number is even or odd
-#if num % 2 == 0:
- #   print("even number")
-#else: print("odd number")    
+if num % 2 == 0:
+    print("even number")
+else: print("odd number")    
 
 # -------------------------------
 # 4. LOOPS
